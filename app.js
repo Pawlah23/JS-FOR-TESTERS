@@ -80,10 +80,32 @@ const day = 'Saturday'
         
 // }
 
-for(let number = 1; number <=10; number = number+1) {
-    if(number % 2 ===0) {
-        console.log(number +' star')  
-    } else {
-        console.log(number +' number')
-    }
+
+// for(let number = 0; number <=10; number = number+1) {
+//     if(number % 2 === 0) {
+//         console.log(number +' is an even number')  
+//     } else {
+//         console.log(number +' is an odd number')
+//     }
+    
+// }
+
+// function MyFunction() { // function declration
+//     console.log('My first function!');
+// }
+
+// MyFunction(); // function call
+
+// function Greeting(name) {
+//     console.log('Good morning, ' + name);
+// }
+
+// Greeting('Buchi!');
+
+function addNumbers (firstNumber, secondNumber) {
+    const sum = firstNumber + secondNumber;
+    console.log(sum);
+
 }
+
+addNumbers(30, 40);
