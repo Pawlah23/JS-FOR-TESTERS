@@ -192,12 +192,88 @@ const day = 'Saturday'
 //     console.log('Good morning');
 // }); 
 
-function Greetings(greet) {
-    greet();
-}
+// function Greetings(greet) {
+//     greet();
+// }
 
-function callback() {
-    console.log('Good morning');
-}
+// function callback() {
+//     console.log('Good morning');
+// }
 
-Greetings(callback);
+// Greetings(callback);
+
+// const myArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+// console.log(myArray)
+
+// const myArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+// const numArray = [90, 60, 50]
+
+// console.log(numArray)
+
+// const myArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+// const numArray = [90, 60, 50]
+
+// const emptyArray = []
+
+// console.log(emptyArray.length)
+
+
+// const myArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+// const numArray = [90, 60, 50]
+
+// const thirdElement = myArray[4]
+// myArray[4] = 45
+// console.log(myArray)
+
+
+// const myWeekArray = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+// const numArray = [90, 60, 50]
+// const emptyArray = []
+
+// emptyArray[0] = 'FirstElement'
+// emptyArray[1] = 'Second Element'
+// emptyArray[3] = 'Forth Element'
+
+// console.log(myWeekArray[5])
+
+
+// const emptyArray = []
+
+// emptyArray[0] = 'First Index'
+
+// console.log(emptyArray)
+
+// const emptyArray = []
+
+// emptyArray.push('First Element', 'Second Element')
+
+// emptyArray.push('Pushed Element')
+
+// console.log(emptyArray)
+
+
+// const notEmptyArray = ['First Element', 'Second Element']
+
+
+// notEmptyArray.push('Pushed Element')
+
+// console.log(notEmptyArray)
+
+
+// const notEmptyArray = ['First Element', 'Second Element', 477, true]
+// notEmptyArray.pop()
+// notEmptyArray.pop()
+// notEmptyArray.pop()
+
+// console.log(notEmptyArray)
+
+const notEmptyArray = ['First Element', 'Second Element', 477, true]
+for(let start = 0; start <= notEmptyArray.length; start=start+1) {
+    notEmptyArray.pop()
+}
+console.log(notEmptyArray)
+
+
+
+
