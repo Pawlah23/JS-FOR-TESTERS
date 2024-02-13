@@ -102,10 +102,102 @@ const day = 'Saturday'
 
 // Greeting('Buchi!');
 
-function addNumbers (firstNumber, secondNumber) {
-    const sum = firstNumber + secondNumber;
-    console.log(sum);
+// function addNumbers (firstNumber, secondNumber) {
+//     const sum = firstNumber + secondNumber;
+//     console.log(sum);
 
+// }
+
+// addNumbers(30, 40);
+
+// function addNumbers (firstNumber, secondNumber) {
+//     const sum = firstNumber + secondNumber;
+//     return sum;
+
+// }
+
+// console.log(addNumbers(30, 40));
+
+// function addNumbers (firstNumber, secondNumber) {
+//     const sum = firstNumber + secondNumber;
+//     return sum;
+// }
+
+// const moreOp = addNumbers(30, 40) + 20
+
+// console.log(moreOp);
+
+
+// function addNumbers (firstNumber, secondNumber) {
+//     const sum = firstNumber + secondNumber;
+//     const product = firstNumber * secondNumber;
+//     return [sum, product];
+// }
+
+// function converter(dollar) {
+//     // convert to dollar and return the equivalent dollar value
+//     // coversion rate is 410 naira to 1 dollar
+//     const naira = dollar * 410
+//     return naira;
+// }
+
+// const nairaValue = converter(100);
+
+// console.log(nairaValue);
+
+// const myName = 'Ben';
+
+// function greet() {
+    
+//     console.log('Good morning, ' +  myName);
+//     function innerGreet() {
+//         console.log('Good evening, ' +  myName);
+//     }
+
+//     innerGreet();
+// }
+//     greet();
+
+    
+
+    // function greet() {
+    //     const myName = 'Ben';
+    //     console.log('Good morning, ' +  myName);
+    //     function innerGreet() {
+    //         console.log('Good evening, ' +  myName);
+    //     }
+    
+    //     innerGreet();
+    // }
+    //     greet();
+    
+
+
+
+// function greet(name) {
+//    console.log('Good morning, ' + name);
+// }
+
+// const myGreet = function (name) {
+//     console.log('Good morning, ' + name);
+// };
+
+// myGreet('Nick');
+
+// function Greetings(greet) {
+//     greet();
+// }
+
+// Greetings(function () {
+//     console.log('Good morning');
+// }); 
+
+function Greetings(greet) {
+    greet();
 }
 
-addNumbers(30, 40);
+function callback() {
+    console.log('Good morning');
+}
+
+Greetings(callback);
