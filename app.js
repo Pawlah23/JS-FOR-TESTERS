@@ -33,7 +33,7 @@
 //     console.log('Number is Odd')
 // }
 
-const day = 'Saturday'
+// const day = 'Saturday'
 
 
 // if(day==='Friday') {
@@ -268,12 +268,169 @@ const day = 'Saturday'
 
 // console.log(notEmptyArray)
 
-const notEmptyArray = ['First Element', 'Second Element', 477, true]
-for(let start = 0; start <= notEmptyArray.length; start=start+1) {
-    notEmptyArray.pop()
-}
-console.log(notEmptyArray)
+// const notEmptyArray = ['First Element', 'Second Element', 477, true]
+// for(let start = 0; start <= notEmptyArray.length; start=start+1) {
+//     notEmptyArray.pop()
+// }
+// console.log(notEmptyArray)
+
+
+// const notEmptyArray = ['First Element', 'Second Element', 477, true]
+
+// notEmptyArray.unshift('Pre-Element', 'Post-Element')
+
+// console.log(notEmptyArray)
+
+
+// const notEmptyArray = ['First Element', 'Second Element', 477, true]
+
+// notEmptyArray.shift()
+// notEmptyArray.shift()
+
+// console.log(notEmptyArray)
+
+
+// const months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// months.slice(2,4)
+// // months.slice(1,7)
+// // months.slice(3,9)
+// // months.slice(3,8)
+// // months.slice(7,12)
+
+// console.log(months.slice(2,4))
+
+
+// const months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// months.splice(4,2)
+
+
+// // console.log(months, months.splice(2,4, 'My custom month'))
+
+// console.log(months, months.splice(4,2))
+
+
+// const months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// console.log(months.indexOf('Dec'))
+
+
+// const months = ['Jan', 'Feb', 'Mar', 'April', 'May', 'Jun', 'Mar', 'July','April', 'Aug', 'Mar', 'Sep', 'April', 'Oct', 'Nov', 'Mar', 'Dec']
+
+// console.log(months.lastIndexOf('Mar'))
+
+
+// const myObject = {
+//     name:'car',
+//     color:'red',
+//     price: 25000
+// }
+
+// const door = {
+//     isOpen:false,
+//     material:'wood',
+//     height: 8,
+
+    // console.log(door.material)
+
+// console.log(door['height'])
 
 
 
+// const myObject = {
+//     name:'car',
+//     color:'red',
+//     price: 25000
+// }
 
+// const door = {
+//     isOpen:false,
+//     material:'wood',
+//     height: 8,
+//     toggleOpenAndClose: function(){
+//         if(door.isOpen===true)  {
+//             door.isOpen = false
+//         } else {
+//             door.isOpen = true
+//         }
+//     }
+// }
+
+
+// const person = {
+//     name:'Nick',
+//     age: 24,
+//     siblings: ['Richard', 'Ken', 'Jane'],
+//     addsiblings: function(name){
+//         person.siblings.push(name)
+//     }
+// }
+
+
+// person.addsiblings('Henry')
+// person.hairColor = 'black'
+// console.log(person)
+
+
+
+// const myObject = {
+//     name:'car',
+//     color:'red',
+//     price: 25000
+// }
+
+// const door = {
+//     isOpen:false,
+//     material:'wood',
+//     height: 8,
+//     toggleOpenAndClose: function(){
+//         if(door.isOpen===true)  {
+//             door.isOpen = false
+//         } else {
+//             door.isOpen = true
+//         }
+//     }
+// }
+
+
+// const person = {
+//     name:'Nick',
+//     age: 24,
+//     siblings: [
+//         {
+//             name: 'Richard',
+//             age: 20,
+//         },
+//         {
+//             name: 'Rose',
+//             age: 17,
+//         },
+//         { 
+//             name: 'Ben',
+//             age: 27,
+//         }
+//     ],
+//     addsiblings: function(name){
+//         person.siblings.push(name)
+//     }
+// }
+
+
+// person.addsiblings({
+//     name: 'Henry',
+//     age: 0,
+// })
+// person.hairColor = 'black'
+// console.log(person)
+
+
+// const myObject = {
+//     name: 'vehicle',
+//     type: 'car',
+//     color: 'black',
+// }
+// const json = JSON.stringify(myObject)
+// // console.log(json)
+
+// console.log(JSON.parse(json))
